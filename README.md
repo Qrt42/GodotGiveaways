@@ -1,3 +1,3 @@
-# GodotGiveaways
+# Godot Giveaways
  
 Free Stuff!

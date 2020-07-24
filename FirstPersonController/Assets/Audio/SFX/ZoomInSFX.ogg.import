@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ZoomInSFX.ogg-71e34eab922d6999a99936511a87472c.oggstr"
+
+[deps]
+
+source_file="res://Assets/Audio/SFX/ZoomInSFX.ogg"
+dest_files=[ "res://.import/ZoomInSFX.ogg-71e34eab922d6999a99936511a87472c.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

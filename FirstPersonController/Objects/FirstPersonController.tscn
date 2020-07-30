@@ -22,6 +22,7 @@ shape = SubResource( 1 )
 script = ExtResource( 1 )
 
 [node name="FirstPersonCamera" parent="HeadCollision" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
 
 [node name="FeetCollision" type="CollisionShape" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 0 )

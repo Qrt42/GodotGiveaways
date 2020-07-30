@@ -3,12 +3,9 @@
 [ext_resource path="res://FirstPersonController/Bonus/TestArea.tscn" type="PackedScene" id=1]
 [ext_resource path="res://FirstPersonController/Objects/FirstPersonController.tscn" type="PackedScene" id=2]
 
-
-
 [node name="World" type="Spatial"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.086, 0 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.72529e-08, 0 )
 
 [node name="TestArea" parent="." instance=ExtResource( 1 )]

@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://FirstPersonController/Bonus/GameWorld.tscn" type="PackedScene" id=1]
+[ext_resource path="res://FirstPersonController/Objects/FirstPersonController.tscn" type="PackedScene" id=1]
 [ext_resource path="res://FirstPersonController/UI/Cursor.tscn" type="PackedScene" id=2]
 [ext_resource path="res://FirstPersonController/UI/CinematicBars.tscn" type="PackedScene" id=3]
+[ext_resource path="res://FirstPersonController/Bonus/TestArea.tscn" type="PackedScene" id=4]
 
 [node name="Node" type="Node"]
 
@@ -20,9 +21,10 @@ msaa = 3
 render_target_update_mode = 3
 audio_listener_enable_3d = true
 
-[node name="World" parent="ViewportContainer/Viewport" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0.4, 1 )
+[node name="Player" parent="ViewportContainer/Viewport" instance=ExtResource( 1 )]
 
-[node name="CursorContainer" parent="ViewportContainer/Viewport/World" instance=ExtResource( 2 )]
+[node name="CursorContainer" parent="ViewportContainer/Viewport/Player" instance=ExtResource( 2 )]
 
-[node name="CinematicBarsContainer" parent="ViewportContainer/Viewport/World" instance=ExtResource( 3 )]
+[node name="CinematicBarsContainer" parent="ViewportContainer/Viewport/Player" instance=ExtResource( 3 )]
+
+[node name="Test Area" parent="ViewportContainer/Viewport" instance=ExtResource( 4 )]

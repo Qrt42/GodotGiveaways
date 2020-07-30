@@ -16,12 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="GodotFirstPersonController"
-run/main_scene="res://Viewports/MainViewport.tscn"
+run/main_scene="res://FirstPersonController/Viewports/MainViewport.tscn"
 
 [autoload]
 
-GlobalPlayer="*res://Scripts/Global/GlobalPlayer.gd"
-GetWorld="*res://Scripts/Global/WorldSettings.gd"
+GlobalPlayer="*res://FirstPersonController/Scripts/Global/GlobalPlayer.gd"
+GetWorld="*res://FirstPersonController/Scripts/Global/WorldSettings.gd"
 
 [display]
 

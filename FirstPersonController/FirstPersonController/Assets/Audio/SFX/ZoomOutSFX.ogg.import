@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ZoomOutSFX.ogg-23a5b7102ebb3af74dbd0a74f87f2096.oggstr"
+
+[deps]
+
+source_file="res://FirstPersonController/Assets/Audio/SFX/ZoomOutSFX.ogg"
+dest_files=[ "res://.import/ZoomOutSFX.ogg-23a5b7102ebb3af74dbd0a74f87f2096.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -32,11 +32,10 @@ var TargetFOV: float = 55.0
 var RotationAxisValue: Vector2 = Vector2.ZERO
 var PrevDirection: Vector3 = Vector3.ZERO
 var CurDirection: Vector3 = Vector3.ZERO
-
-var LookInAudio = preload("res://Assets/Audio/SFX/LookInSFX.ogg")
-var LookOutAudio = preload("res://Assets/Audio/SFX/LookOutSFX.ogg")
-var ZoomInAudio = preload("res://Assets/Audio/SFX/ZoomInSFX.ogg")
-var ZoomOutAudio = preload("res://Assets/Audio/SFX/ZoomOutSFX.ogg")
+var LookInAudio = preload("res://FirstPersonController/Assets/Audio/SFX/LookInSFX.ogg")
+var LookOutAudio = preload("res://FirstPersonController/Assets/Audio/SFX/LookOutSFX.ogg")
+var ZoomInAudio = preload("res://FirstPersonController/Assets/Audio/SFX/ZoomInSFX.ogg")
+var ZoomOutAudio = preload("res://FirstPersonController/Assets/Audio/SFX/ZoomOutSFX.ogg")
 
 onready var _CameraAudioPlayer = $CameraAudioPlayer
 
